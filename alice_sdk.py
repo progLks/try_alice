@@ -7,19 +7,19 @@ class AliceRequests(object):
 
     @property
     def version(self):
-        return self._request_dict('version')
+        return self._request_dict['version']
 
     @property
     def session(self):
-        return self._request_dict('session')
+        return self._request_dict['session']
 
     @property
     def user_id(self):
-        return self._request_dict('user_id')
+        return self._request_dict['user_id']
 
     @property
     def version(self):
-        return self._request_dict('version')
+        return self._request_dict['version']
 
     @property
     def is_new_session(self):

@@ -25,7 +25,7 @@ def message_return(response, user_storage, message):
 
 
 def message_error(response, user_storage):
-    message = random.choice(["говори правильно, ты же военный блять", "Вытащи член изо рта, и повтори нормально"])
+    message = random.choice(["говори правильно, ты же военный блять", 'Вытащи член изо рта, и повтори нормально'])
     return message_return(response, user_storage, message)
 
 
