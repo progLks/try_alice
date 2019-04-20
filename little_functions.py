@@ -18,7 +18,7 @@ def read_data(name: str) -> dict:
 
 def message_return(response, user_storage, message):
     response.set_text(message)
-    response.ser_tts(message)
+    response.set_tts(message)
     buttons, user_storage = get_suggests(user_storage)
     response.set_buttons(buttons)
     return response, user_storage
