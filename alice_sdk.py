@@ -15,7 +15,7 @@ class AliceRequests(object):
 
     @property
     def user_id(self):
-        return self._request_dict['user_id']
+        return self.session['user_id']
 
     @property
     def version(self):
